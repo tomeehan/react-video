@@ -1,3 +1,7 @@
+body {
+	color: #404040;
+}
+
 .search-bar {
 	margin: 20px;
 	text-align: center;;
@@ -14,10 +18,25 @@
 	border: 1px solid #f2f2f2;
 }
 
+.video-detail .details .video-title {
+	font-weight: 600;
+}
+
+.video-detail .details .video-desc {
+	font-weight: 500;
+}
+
+.media-heading {
+	font-size: 14px;
+	font-weight: 500;
+}
+
 .list-group-item {
 	cursor: pointer;
+	transition: padding 0.2s;
 }
 
 .list-group-item:hover {
 	background: #f2f2f2;
+	padding-bottom: 35px; 
 }
