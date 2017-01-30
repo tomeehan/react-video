@@ -29,10 +29,10 @@ class App  extends Component {
     return (
       <div>
         <SearchBar />
-        <VideoDetail 
+        <VideoDetail video={this.state.selectedVideo} />
+        <VideoList 
           onVideoSelect={selectedVideo => this.setState({selectedVideo})}
-          video={this.state.selectedVideo} />
-        <VideoList videos={this.state.videos} />
+          videos={this.state.videos} />
       </div>
     );
   }
