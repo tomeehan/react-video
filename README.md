@@ -7,6 +7,7 @@ See it in production at: [youtube-search-react.herokuapp.com](http://youtube-sea
 #### Running
 
 `npm install`
+
 `npm start`
 
 Head to the Google Developers Console to grab your own API Key for the Youtube Data API. [Guide here](https://developers.google.com/youtube/v3/getting-started)
