@@ -13,13 +13,23 @@ body {
 
 .search-bar {
 	margin: 20px;
-	text-align: center;;
+	text-align: center;
 }
 
 .search-bar input {
 	width: 64%;
 	height: 50px;
 	padding: 15px;
+	border: 1px solid #404040;
+	 -webkit-transition: border 1s; /* Safari */
+    transition: border 1s;
+}
+
+.search-bar input:focus {
+	outline: none;
+	border: 2px solid #404040;
+	 -webkit-transition: border 1s; /* Safari */
+    transition: border 1s;
 }
 
 .video-detail .details {
@@ -33,7 +43,7 @@ body {
 	font-family: Ubuntu;
 	margin-bottom: 20px;
 	/*text-transform: uppercase;*/
-	font-size: 200%;
+	font-size: 150%;
 }
 
 .video-detail .details .video-desc {
