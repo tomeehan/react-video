@@ -1,6 +1,14 @@
 body {
 	color: #404040;
 	font-family: Source sans pro;
+	background-color: #f2f2f2 !important;
+}
+
+.container {
+	box-shadow: 1px 1px 5px #888888;
+	padding: 20px;
+	background: #fff;
+	margin-top: 25px;
 }
 
 .search-bar {
@@ -10,7 +18,8 @@ body {
 
 .search-bar input {
 	width: 64%;
-	height: 64px;
+	height: 50px;
+	padding: 15px;
 }
 
 .video-detail .details {
@@ -45,4 +54,9 @@ body {
 .list-group-item:hover {
 	background: #f2f2f2;
 	padding-bottom: 35px; 
+}
+
+.loading {
+	text-align: center;
+	color: red;
 }
